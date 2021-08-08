@@ -334,7 +334,7 @@ float maximo(float v[], int N)
 {
     int i;
     float max = v[0];
-    for (i=1; i<N; i++) //se comienza en 1 ya que el primero se tomó como referencia
+    for (i=1; i<N; i++) //se comienza en 1 ya que el primero se tomÃ³ como referencia
     {
         if (v[i]>max)
             max = v[i];
